@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>네비게이션 메뉴</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div>
+        <h2>과일</h2>
+        <ol> <!--ol : 순서가 있는 목록-->
+            <li>사과</li>
+            <li>수박</li>
+            <li>바나나</li>
+            <li>망고
+                <ul> <!--ul : 순서가 없는 목록-->
+                    <li>애플망고</li>
+                    <li>망고스틴</li>
+                    <li>그린망고</li>
+                </ul>
+            </li>
+        </ol>
+        <h2>노트북</h2>
+        <ul>
+            <li>삼성</li>
+            <li>LG</li>
+            <li>APPLE</li>
+            <li>HP
+                <ol>
+                    <li>XPS15</li>
+                    <li>XPS17</li>
+                    <li>XPS11</li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <!--테이블 태그 : table(표 삽입) / tr(표에 행 삽입) / th(표의 제목 셀 생성) / td(표의 일반 셀 생성)-->
+        <table border="1">
+            <tr>
+                <th></th>
+                <td>월</td>
+                <td>화</td>
+                <td>수</td>
+                <td>목</td>
+                <td>금</td>
+            </tr>
+            <tr>
+                <td>1교시</td>
+                <td>국어</td>
+                <td>영어</td>
+                <td>수학</td>
+                <td>사회</td>
+                <td>과학</td>
+            </tr>
+            <tr>
+                <td>2교시</td>
+                <td>국어</td>
+                <td>수학</td>
+                <td>영어</td>
+                <td>과학</td>
+                <td>사회</td>
+            </tr>            
+            <tr>
+                <td>3교시</td>
+                <td>영어</td>
+                <td>국어</td>
+                <td>사회</td>
+                <td>수학</td>
+                <td>과학</td>
+            </tr>            
+            <tr>
+                <td>4교시</td>
+                <td>수학</td>
+                <td>영어</td>
+                <td>국어</td>
+                <td>사회</td>
+                <td>영어</td>
+            </tr>            
+            <tr>
+                <td>5교시</td>
+                <td>영어</td>
+                <td>국어</td>
+                <td>사회</td>
+                <td>과학</td>
+                <td>수학</td>
+            </tr>            
+            <tr>
+                <td>6교시</td>
+                <td>국어</td>
+                <td>수학</td>
+                <td>사회</td>
+                <td>과학</td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td>7교시</td>
+                <td></td>
+                <td>체육</td>
+                <td colspan="2"></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+
+    <hr>
+    <br>
+    <div>
+        <audio src="test.mp4" controls="controls"></audio>
+        <br>
+        <video src="test.mp4" controls="controls"></video>
+    </div>
+</body>
+</html>

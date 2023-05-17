@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>수평정렬</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        div.container {
+            overflow: hidden;   /*내 영역을 벗어나는 부분은 안 씀*/
+        }
+        div.item {
+            float: left;
+            margin: 0 5px; /* CSS margin top right boyyom left 순*/
+            padding: 10px;
+            border: solid 1px pink;
+        }
+        div.m1 {
+            overflow: scroll;
+            float: left;
+            margin: 0 5px; /* CSS margin top right boyyom left 순*/
+            padding: 10px;
+            border: solid 1px pink;
+        }
+        p {
+            width: 500px;
+            margin: 0 auto; /* 중앙 정렬*/
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat eius pariatur fugiat dolorum optio, nulla corporis quis modi recusandae autem quo natus ea odit ipsa aliquid ipsam! Facere maxime cupiditate natus vel praesentium deserunt. Vero sit illum fugit, impedit, odio similique dolorum alias mollitia voluptas nobis quibusdam, eveniet maiores nemo.</p>
+    <div class="container">
+        <div class="item m1">메뉴 - 1</div>
+        <div class="item">메뉴 - 2</div>
+        <div class="item">메뉴 - 3</div>
+        <div class="item">메뉴 - 4</div>
+        <div class="item">메뉴 - 5</div>
+    </div>  
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, perferendis animi eaque minus nobis id natus rerum. Autem eius culpa omnis debitis numquam, voluptas saepe laboriosam aperiam, quaerat animi neque ipsum provident, maiores rem veritatis rerum! Velit veniam ut sed animi consequuntur repudiandae, error cupiditate illum explicabo voluptates aliquid tempora?</p>  
+</body>
+</html>

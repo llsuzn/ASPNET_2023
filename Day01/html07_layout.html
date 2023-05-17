@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Layout</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        #header {
+            width: 200px;
+            margin: 0 auto;
+            background-color: navy;
+            color: pink;
+        }
+        #wrap {
+            width: 700px;
+            margin: 0 auto;
+            background-color: pink;
+            color: navy;
+            overflow: hidden;
+        }
+        #aside {
+            width: 150px;
+            float: right;
+            background-color: cornsilk;
+            color: cornflowerblue;
+        }
+        #content {
+            width: 450px;
+            background-color: cornflowerblue;
+            color: thistle;
+            float: left;
+        }
+        #footer {
+            width: 200px;
+            margin: 0 auto;
+            background-color: blue;
+            color: hotpink;
+        }
+
+        .item {
+            color: blueviolet;
+        }
+        .options {
+            background-color: antiquewhite;
+        }
+        #header > h1 {
+            font-size: smaller;
+        }
+        #wrap > #aside > h2 {
+            color: black;
+        }
+
+        h1:hover { /*반응 선택자 : hover => 사용자가 마우스 커서를 올린 태그 선택*/
+            color: white;
+        }
+        h2:active { /*반응 선택자 : active => 사용자가 마우스로 클릭한 태그 선택*/
+            color: red;
+        }
+        input:focus {
+            width: 100%;
+            border: solid 2px black;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>#header 영역</h1>
+    </div>    
+    <div id="wrap">
+        <div id="aside">
+            <h2>#aside 영역</h2>
+        </div>
+        <div id="content">
+            <h2>#content 영역</h3>
+        </div>
+    </div>    
+    <div id="footer">
+        <!--class 는 속성값을 여러개 지정할 수 있다-->
+        <h2 class="item options">#footer 영역</h2>
+    </div>
+    <form>
+        <input type="text">
+    </form>
+</body>
+</html>

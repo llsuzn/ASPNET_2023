@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>입력태그</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script> -->
+</head>
+<body>
+    <form action="html03_list.html" method="post"> <!-- --> 
+        <!-- action : 데이터를 전달할 목적지  
+             method : 데이터 전송 방식 ...(GET : 주소에 데이터 직접 입력해 전달 / POST : 별도의 방법을 사용해 데이터를 해당 주소로 전달)-->
+        <input type="text" name="search">
+        <input type="submit" value="제출!!"> <!--value 없으면 default text : '제출'-->
+        <input type="button" value="버튼"> <!--button은 값이 전송이 안 됨-->
+        <script>
+            var link = 'https://www.'+ search.value;
+            window.location.href = link;
+            window.location.replace(link);
+            window.open(link);
+        </script>
+    </form><br><hr><br>
+
+    <form method="get">
+        <!--입력태그-->
+        <input type="text" name="search" value="텍스트"><br>
+        <input type="password" name="pwd" value="12345"><br>
+        <input type="checkbox" name="strawberry">딸기 &nbsp;&nbsp;&nbsp;<input type="checkbox" name="banana">바나나<br>
+        <input type="radio" name="gender" value="male">남성<input type="radio" name="gender" value="female">여성<br>
+        <input type="file" name="photo"><br>
+        <input type="hidden" name="userid" value="sujineee"><br>        <!--히든태그-->
+
+        <input type="image" src=""><br>
+        <input type="color" value="#FF9999"><br><br>
+        <input type="date" value="2000-01-01"><br>
+        <input type="month" value="2000-01"><br>
+        <input type="email" value="dltnwls9988@naver.com"><br><br>
+        <select>
+            <option>김밥</option>
+            <option>떡볶이</option>
+            <option>순대</option>
+            <option>어묵</option>
+        </select><br><br><textarea name="content" rows="10"></textarea><br><br>
+        <input type="submit" value="승인">
+        <input type="button" value="버튼">
+        <input type="reset" value="초기화"><br><br>
+    </form>
+</body>
+</html>

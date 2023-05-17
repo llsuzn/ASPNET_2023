@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <style>
+        * { /*모든 스타일*/
+            color: navy;
+            margin: 0;
+            padding: 0;
+        }
+        
+        h2 {
+            color: pink;
+        }
+        
+        #first { /* [id : #] 아이디는 이름이 중복되면 안 됨*/
+            color: black;
+        }
+        
+        .phrase {  /* [class : .]  클래스는 이름이 중복돼도 괜찮음*/
+            color: gray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="title">타이틀</h1>
+    <h2 class="subtitle">서브 타이틀</h2>    
+    <p id="first" class="phrase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nostrum soluta fugiat suscipit dolor commodi et, harum provident quo itaque.</p>
+    <p id="second" class="phrase">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo praesentium possimus, iusto sed quod modi aliquid! Commodi asperiores nesciunt neque.</p>
+</body>
+</html>
