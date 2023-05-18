@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jQuery</title>
+    <script src='main.js'></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+            integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+            crossorigin="anonymous"></script>
+    
+    <script>
+        // jQuery로 onload 방식 -> 전통 자바스크립트 방식보다 코드가 간결해서 편하다
+        $(document).ready(function(){
+            $('input').click(function() {
+                $('.page').fadeToggle(500);   //fadeToggle : fadein/fadeout 반복 , slideToggle : 위아래로 사라짐
+            });
+            $('.box').css({
+                width: '100px',
+                height: '100px',
+                background: 'orangered'
+            }).delay(1000)
+            .animate({
+                width: '500px',
+                opacity: 0.5
+            }, 1500);
+        });
+    </script>
+</head>
+<body>
+    <input type="button" value="Toggle">
+        <div class="page">
+            <h1>Lorem ipsum dolor sit amet.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quibusdam ipsa vitae commodi, consequuntur, atque corporis voluptatem veniam nihil repellendus sit. Cupiditate beatae corporis perspiciatis voluptates saepe molestiae incidunt dicta, impedit, ad facere a eligendi voluptatum repellat? Nisi, cumque rerum id in magni corrupti. Cupiditate dolore dolor inventore aliquam laudantium quis molestiae nostrum, neque aut quas iusto officia provident odit error, nulla, asperiores sint! At dolores tenetur tempora fugit sint ad neque impedit veritatis corrupti illo libero rem officia, eius labore voluptas. Distinctio alias veritatis omnis officia tempora rerum maxime iusto sapiente optio atque reiciendis molestias quas, voluptas nostrum consequuntur!</p>
+        </div>
+    </button>
+    <div id="box"></div>
+</body>
+</html>

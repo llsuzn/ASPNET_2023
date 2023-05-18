@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jQuery</title>
+    <script src='main.js'></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+            integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+            crossorigin="anonymous"></script>
+    
+    <script>
+        // jQuery로 onload 방식 -> 전통 자바스크립트 방식보다 코드가 간결해서 편하다
+        $(document).ready(function() {
+
+            // 앞쪽 function은 이벤트에 대한 처리 함수
+            $('h1').hover(function(event) {
+                $(this).css({
+                    backgroundColor: 'orangered',
+                    color: 'white'
+                });
+                event.preventDefault();     // 기존 이벤트를 제거
+            // 뒤쪽 function은 이벤트 대한 처리 함수의 반대
+            }, function() {
+                $(this).css({
+                    backgroundColor: '',
+                    color: ''
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
