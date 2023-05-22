@@ -25,3 +25,9 @@ BootStrap 앨범사이트 클로닝
 
 Pinterest 앨범사이트 클로닝
 	
+## 4일차
+- ASP.NET MVC
+	- ASP.NET 기본
+	- ASP.NET 프로젝트
+		- 인증서 오류 : 화면 아무데나 클릭 후 thisisunsafe입력 + enter
+		
