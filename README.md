@@ -31,3 +31,34 @@ Pinterest 앨범사이트 클로닝
 	- ASP.NET 프로젝트
 		- 인증서 오류 : 화면 아무데나 클릭 후 thisisunsafe입력 + enter
 		
+## 5일차
+- ASP.NET MVC
+	- 게시판 페이징
+		- Trumbwyg
+	
+## 6일차
+- ASP.NET Core MVC
+	- 회원가입
+	- 로그인
+
+
+## 7일차	
+- ASP.NET Core MVC
+	- 게시판 정리
+		- 아이디 삭제 
+		- 게시판 번호
+	- 권한관리
+		- 사용자별 권한할당
+		- 관리자, 사용자 분리
+		- 관리자 게시판글 모두 삭제 가능
+		- 프로필 수정
+	
+	
+## 8일차	
+- ASP.NET RestAPI	
+	- 부트스트랩 테마(SEO Dream) 적용
+- ASP.NET RestAPI
+- 개인포트폴리오 
+	- 부트스트랩 테마 재적용
+	
+	
