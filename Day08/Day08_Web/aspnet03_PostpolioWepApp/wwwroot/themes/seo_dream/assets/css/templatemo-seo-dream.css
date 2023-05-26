@@ -130,7 +130,7 @@ p {
 }
 
 img {
-  width: 100%;
+  width: 70%;       /*사진크기*/
   overflow: hidden;
 }
 
@@ -356,9 +356,10 @@ header
   z-index: 999;
 }
 
+/* TODO : 메뉴 아이템간 안쪽 여백 조정*/
 .header-area .main-nav .nav li {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /*.header-area .main-nav .nav li:last-child {

@@ -56,9 +56,14 @@ Pinterest 앨범사이트 클로닝
 	
 ## 8일차	
 - ASP.NET RestAPI	
-	- 부트스트랩 테마(SEO Dream) 적용
+	- 부트스트랩 테마(SEO Dream) 적용	
+	
+## 9일차
+- ASP.NET Core MVC
+	- SEO Dream 테마 완료
 - ASP.NET RestAPI
-- 개인포트폴리오 
+	- RestAPI Server
+	- WPF Client
+	
+- 개인포트폴리오 웹
 	- 부트스트랩 테마 재적용
-	
-	
