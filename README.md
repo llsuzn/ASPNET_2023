@@ -61,9 +61,15 @@ Pinterest 앨범사이트 클로닝
 ## 9일차
 - ASP.NET Core MVC
 	- SEO Dream 테마 완료
+		- 스크롤이 되는 화면, 안되는 화면 메뉴 분리
+		- 포트폴리오 동적관리(이미지 업로드)
+	- 다른 BootStrap 테마 적용	
 - ASP.NET RestAPI
+	- OpenAPI같은 서비스를 운영
 	- RestAPI Server
 	- WPF Client
 	
 - 개인포트폴리오 웹
 	- 부트스트랩 테마 재적용
+## 10일차
+- ASP.NET RestAPI		
