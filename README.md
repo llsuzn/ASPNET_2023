@@ -73,6 +73,10 @@ ASP.NET 학습 리포지토리
 	- 부트스트랩 테마 재적용
 <img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/부트스트랩적용2.png?raw=true" width=700 />
 	
+## 개인포트폴리오
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/LEE-SUJIN-PORTFOLIO.gif?raw=true" width=700 />
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/개인웹.png?raw=true" width=700 />
+	
 ## 11일차
 - ASP.NET RestAPI		
 	- RestAPI Server 체크
