@@ -39,7 +39,7 @@ ASP.NET 학습 리포지토리
 	- 계정관리
 		- 회원가입
 		- 로그인
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/로그인.png?raw=true" width=700 />
 
 ## 7일차	
 - ASP.NET Core MVC
@@ -51,12 +51,11 @@ ASP.NET 학습 리포지토리
 		- 관리자, 사용자 분리
 		- 관리자 게시판글 모두 삭제 가능
 		- 프로필 수정
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />	
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/게시판.png?raw=true" width=700 />	
 	
 ## 8일차	
 - ASP.NET RestAPI	
 	- 부트스트랩 테마(SEO Dream) 적용	
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
 	
 ## 9일차
 - ASP.NET Core MVC
@@ -65,29 +64,30 @@ ASP.NET 학습 리포지토리
 		- 포트폴리오 동적관리(이미지 업로드)
 		- IIS .net 6.0 런타임 설치
 	- 다른 BootStrap 테마 적용
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/부트스트랩적용.png?raw=true" width=700 />
 	
 ## 10일차
 	- ASP.NET RestAPI
-		- RestAPI Server
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />		
+		- RestAPI Server	
 
 - 개인포트폴리오 웹
 	- 부트스트랩 테마 재적용
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/부트스트랩적용2.png?raw=true" width=700 />
 	
 ## 11일차
 - ASP.NET RestAPI		
 	- RestAPI Server 체크
 	- FrontEnd Server 작업
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/API_Server.png?raw=true" width=700 />	
 	
 ## 12일차
 - ASP.NET RestAPI
 	- RestAPI Server 수정
 	- FrontEnd Server 작업계속
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/API_Server.png?raw=true" width=700 />
 
 ## 13일차
 - ASP.NET RestAPI
 	- WPF 앱 연동
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />	
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/API_App.png?raw=true" width=700 />	
+<img src="https://github.com/llsuzn/ASPNET_2023/blob/main/images/API_Web.png?raw=true" width=700 />
