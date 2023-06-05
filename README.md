@@ -31,7 +31,6 @@ ASP.NET 학습 리포지토리
 - ASP.NET MVC
 	- 게시판 페이징
 		- Trumbwyg 에디터
-<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
 	
 ## 6일차
 - ASP.NET Core MVC
