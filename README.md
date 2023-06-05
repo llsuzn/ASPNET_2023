@@ -20,11 +20,7 @@ ASP.NET 학습 리포지토리
 - 웹 기본	
 	- BootStrap 예제클로닝
 	- 핀터레스트스타일 페이지 클로닝
-	
-BootStrap 앨범사이트 클로닝	
-
-Pinterest 앨범사이트 클로닝
-	
+		
 ## 4일차
 - ASP.NET MVC
 	- ASP.NET 기본
@@ -34,13 +30,16 @@ Pinterest 앨범사이트 클로닝
 ## 5일차
 - ASP.NET MVC
 	- 게시판 페이징
-		- Trumbwyg
+		- Trumbwyg 에디터
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
 	
 ## 6일차
 - ASP.NET Core MVC
-	- 회원가입
-	- 로그인
-
+	- 게시판 정리
+	- 계정관리
+		- 회원가입
+		- 로그인
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
 
 ## 7일차	
 - ASP.NET Core MVC
@@ -52,24 +51,43 @@ Pinterest 앨범사이트 클로닝
 		- 관리자, 사용자 분리
 		- 관리자 게시판글 모두 삭제 가능
 		- 프로필 수정
-	
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />	
 	
 ## 8일차	
 - ASP.NET RestAPI	
 	- 부트스트랩 테마(SEO Dream) 적용	
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
 	
 ## 9일차
 - ASP.NET Core MVC
 	- SEO Dream 테마 완료
 		- 스크롤이 되는 화면, 안되는 화면 메뉴 분리
 		- 포트폴리오 동적관리(이미지 업로드)
-	- 다른 BootStrap 테마 적용	
-- ASP.NET RestAPI
-	- OpenAPI같은 서비스를 운영
-	- RestAPI Server
-	- WPF Client
+		- IIS .net 6.0 런타임 설치
+	- 다른 BootStrap 테마 적용
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
 	
+## 10일차
+	- ASP.NET RestAPI
+		- RestAPI Server
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />		
+
 - 개인포트폴리오 웹
 	- 부트스트랩 테마 재적용
-## 10일차
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
+	
+## 11일차
 - ASP.NET RestAPI		
+	- RestAPI Server 체크
+	- FrontEnd Server 작업
+	
+## 12일차
+- ASP.NET RestAPI
+	- RestAPI Server 수정
+	- FrontEnd Server 작업계속
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />
+
+## 13일차
+- ASP.NET RestAPI
+	- WPF 앱 연동
+<img src="https://github.com/llsuzn/Mini_Projects/blob/main/Part2/images/Fake%20IOT%20Device.gif?raw=true" width=700 />	
