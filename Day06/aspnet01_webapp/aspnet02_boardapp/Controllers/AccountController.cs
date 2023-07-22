@@ -25,6 +25,7 @@ namespace aspnet02_boardapp.Controllers
         {
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         // 비동기가 아니면 return값은 IActionResult
